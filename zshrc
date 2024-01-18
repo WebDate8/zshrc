@@ -23,7 +23,7 @@ alias c='clear'
 alias h='history'
 alias ports='netstat -tulanp'
 alias top='btop'
-alias gg='apt install'
+alias G='apt install'
 alias rr='python3 ~/ranger/ranger.py'
 alias nn='ncdu' #Ncdu is a disk usage analyzer with an ncurses interface.
 #It is designed to find space hogs on a remote server where
