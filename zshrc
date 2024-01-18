@@ -8,23 +8,22 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="crcandy"
 
+alias d11='ssh root@10.0.0.3'
 alias k='kubectl'
-alias lll='lsb_release -a'
 alias i='ip -c -br a'
 alias ls='exa'
 alias gh='history|grep'
-alias rm='rm -rf'
 alias mkdir='mkdir -pv'
-alias fs='du -sh * | sort -h' #FileSize
+alias filesize='du -sh * | sort -h'
 alias upd='apt update && apt upgrade -y'
 alias df='df -h'
 alias c='clear'
 alias h='history'
 alias ports='netstat -tulanp'
 alias top='btop'
-alias G='apt install'
+alias gg='apt install'
 alias rr='python3 ~/ranger/ranger.py'
 alias nn='ncdu' #Ncdu is a disk usage analyzer with an ncurses interface.
 #It is designed to find space hogs on a remote server where
@@ -127,10 +126,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ### Added by Zinit's installer
-if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
-    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-cont>    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
-    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
-        print -P "%F{33} %F{34}Installation successful.%f%b" || \
+if [[ ! -f $HOME/.local/share/zinit/zinit.Sgit/zinit.zsh ]]; then
+    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zd>%f%b"    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \        print -P "%F{33} %F{34}Installation successful.%f%b" || \
         print -P "%F{160} The clone has failed.%f%b"
 fi
 
@@ -148,6 +146,4 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
-# adicione no final do .zshrc
-zinit light zdharma-continuum/fast-syntax-highlighting
-zinit light zsh-users/zsh-completions
+neofetch
