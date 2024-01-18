@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~/
+
 apt update
 apt upgrade -y
 apt install sudo -y
@@ -12,15 +14,14 @@ apt install curl git -y
 chsh -s $(which zsh)
 
 y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 y | bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/webdate8/zshrc
 
-cd ~/
 rm .zshrc
-mv zshrc/.zshrc .zshrc
+mv ~/zshrc/.zshrc ~/.zshrc
 rm -rf zshrc
+rm -rf a.sh
 
-echo "Pansiere - Configuração concluída. Reinicie o terminal para aplicar."
+echo "Pansiere - Configura__o conclu_da. Reinicie o terminal para aplicar."
