@@ -22,6 +22,5 @@ git clone https://github.com/webdate8/zshrc
 rm .zshrc
 mv ~/zshrc/.zshrc ~/.zshrc
 rm -rf zshrc
-rm -rf a.sh
 
 echo "Pansiere - Configura__o conclu_da. Reinicie o terminal para aplicar."
