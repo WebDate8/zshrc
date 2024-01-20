@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="crcandy"
 
 alias d11='ssh root@10.0.0.3'
+alias TT='shutdown now; poweroff'
 alias k='kubectl'
 alias i='ip -c -br a'
 alias ls='exa'
