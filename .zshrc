@@ -27,6 +27,7 @@ alias ports='netstat -tulanp'
 alias top='btop'
 alias G='apt install'
 alias rr='python3 ~/ranger/ranger.py'
+alias UPDATE="cd && git clone https://github.com/webdate8/zshrc && cd zshrc && chmod +x update.sh && ./update.sh && cd && source .zshrc"
 alias nn='ncdu' #Ncdu is a disk usage analyzer with an ncurses interface.
 #It is designed to find space hogs on a remote server where
 #you don_t have an entire graphical setup available,
