@@ -13,6 +13,7 @@ ZSH_THEME="crcandy"
 alias sd12='ssh root@d12'
 alias sdocker='ssh root@docker'
 alias skali='ssh root@kali'
+alias su22='ssh root@u22'
 alias sd11='ssh root@d11'
 alias TT='shutdown now; poweroff'
 alias k='kubectl'
