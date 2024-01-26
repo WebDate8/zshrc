@@ -11,7 +11,6 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="crcandy"
 
 
-#testando
 alias sd12='ssh root@d12'
 alias sdocker='ssh root@docker'
 alias skali='ssh root@kali'
