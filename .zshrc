@@ -10,8 +10,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="crcandy"
 
+alias sd12='ssh root@d12'
+alias sdocker='ssh root@docker'
 alias skali='ssh root@kali'
-alias d11='ssh root@10.0.0.3'
+alias sd11='ssh root@d11'
 alias TT='shutdown now; poweroff'
 alias k='kubectl'
 alias i='ip -c -br a'
