@@ -161,3 +161,5 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-completions
 
 neofetch
+
+i
