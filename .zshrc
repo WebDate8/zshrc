@@ -10,6 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="crcandy"
 
+alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3'
 alias wtr='curl wttr.in'
 alias span='ssh pansiere@66.228.61.207'
 alias sd12='ssh root@d12'
