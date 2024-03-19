@@ -19,7 +19,6 @@ git clone https://github.com/webdate8/zshrc
 
 rm .zshrc
 mv ~/zshrc/.zshrc ~/.zshrc
-mv ~/zshrc/.tmux.conf ~/.tmux.conf
 rm -rf zshrc
 
 echo "Pansiere - Configura__o conclu_da. Reinicie o terminal para aplicar."
