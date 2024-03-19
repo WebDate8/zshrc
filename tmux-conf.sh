@@ -4,7 +4,6 @@ cd ~/
 
 git clone https://github.com/webdate8/zshrc
 
-rm .zshrc
 mv ~/zshrc/.tmux.conf ~/.tmux.conf
 rm -rf zshrc
 
